@@ -16,66 +16,76 @@ import LinkCard from "../components/page/LinkCard.astro";
       <div class="p-6">
           # Hi there! 👋
 
-          This is the Frosti theme
 
-          A clean, elegant, and fast static blog template
+          我是 MareSera！
+
+
+          一个正在筹备CSP-S的新晋高一生😎
       </div>
     </div>
 
   </BaseCard>
 
-  <BaseCard title="Home" image="/index.webp">
-# Frosti Introduction
+  <BaseCard title="Home" image="">
+
+  
+# Home
 
 ---
 
-## Welcome to Frosti Blog Template
+一个就读于寒亭区第一中学的高一学生！
 
-### 🧊 Frosti
 
-**A clean, elegant, and fast static blog template! 🚀 Developed with [Astro](https://astro.build/)!**
+这里不知道还可以写些什么欸！
 
-[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/EveSunMaple/Frosti/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️ My Blog**](https://www.saroprock.com)
+那就不定期放一点我喜欢的东西吧：
 
-### Why Choose Frosti?
+当泪的潮涌渐渐退远，理想的岛屿就会浮现。——顾城
 
-- **Lightning-fast Access Speed and Excellent SEO**: Your blog content spreads quickly and efficiently.
-- **View Transition Animations**: Smooth visual experience with ViewTransitionsAPI.
-- **Integrated Sidebar**: Includes social info cards, theme switch, back-to-top button, and persistent article directory.
-- **Powerful Search Functionality**: Easily search articles using pagefind.
-- **Day/Night Mode**: Adapt to different reading environments.
-- **Rich Components**: Collapsible pages, link cards, timeline components, various alerts, code block copy button, image comparison, and end-of-article copyright information.
-- **Comment System**: Built with [Waline](https://waline.js.org/) for interactive discussions.
-- **Responsive Design**: Crafted with [Tailwind CSS](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/) to fit different devices.
 
-### Feature Highlights
+    ---
 
-- **Easy Installation and Use**: Install with just one command, customize everything in `consts.ts`.
-- **Variety of Article Components**: Enhance the presentation of your blog content.
+    ## 推荐！
 
-### How to Get Started?
+    <div class="grid grid-cols-1 gap-4">
+    <LinkCard
+        title="本站公告！"
+        desc="入站须知！一定要来看看~"
+        badge=""
+        url="https://blog.maresera.top/blog/%E7%BD%AE%E9%A1%B6%E6%9C%AC%E7%AB%99%E5%85%AC%E5%91%8A"
+      />
 
-1. **Install Frosti**
+   </div>
 
-   Simply run the following command in your terminal:
 
-   ```sh
-   npm create astro@latest -- --template EveSunMaple/Frosti
-   ```
+## Content
 
-2. **Configure the Comment System**
-
-   Set up [Waline](https://waline.js.org/) to enable comments. Check `src\components\Comment.astro` for details.
-
-### Future Plans
-
-- **Integrate Headless CMS**.
-- **Fix Known Style Bugs**.
-- **More Features Coming Soon...**
-
-### Special Thanks
-
-A big thanks to @[Saicaca](https://github.com/saicaca) and @[WRXinYue](https://github.com/WRXinYue) for their inspiration and help with Frosti.
+    <div class="grid grid-cols-2 gap-4">
+      <LinkCard
+        title="博客"
+        desc="想到的与看到的"
+        url="/blog"
+        target = "_self"
+      />
+      <LinkCard
+        title="项目"
+        desc="想法的实现"
+        url="/project"
+        target = "_self"
+      />
+      <LinkCard
+        title="关于"
+        desc="“我”与博客"
+        url="/about"
+        target = "_self"
+      />
+      <LinkCard
+        title="友链"
+        desc="有趣的灵魂"
+        url="/friend"
+        target = "_self"
+      />
+    </div>
 
   </BaseCard>
 </BaseLayout>
