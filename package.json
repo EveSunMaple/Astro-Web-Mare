@@ -21,7 +21,6 @@
     "astro": "^4.13.3",
     "astro-icon": "^1.1.0",
     "astro-pagefind": "^1.6.0",
-    "cheerio": "^1.0.0",
     "dayjs": "^1.11.12",
     "katex": "^0.16.11",
     "pagefind": "^1.1.0",
